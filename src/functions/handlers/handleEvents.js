@@ -18,14 +18,6 @@ module.exports = client => {
 				default:
 					break;
 			}
-
-			// const { commands, commandArray } = client;
-			// for (const file of eventFile) {
-			// 	const command = require(`../../commands/${folder}/${file}`);
-			// 	commands.set(command.data.name, command);
-			// 	commandArray.push(command, command.data.toJson());
-			// }
-			// console.log('Les Commandes sont chargée');
 		}
 	};
 };
