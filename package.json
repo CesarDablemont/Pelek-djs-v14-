@@ -1,0 +1,28 @@
+{
+  "name": "pelek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .main",
+    "dev": "nodemon ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarDablemont/Pelek-djs-v14-.git"
+  },
+  "keywords": [],
+  "author": "Cesar Dablemont",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarDablemont/Pelek-djs-v14-/issues"
+  },
+  "homepage": "https://github.com/CesarDablemont/Pelek-djs-v14-#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.36.3",
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
