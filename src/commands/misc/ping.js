@@ -6,7 +6,7 @@ module.exports = {
     .setDescription('Donne mon ping'),
   async execute(interaction, client) {
 
-    const message = await interaction.reply({
+    interaction.reply({
       content: `Pong!`,
       ephemeral: true,
     });
