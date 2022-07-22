@@ -10,7 +10,7 @@ module.exports = {
     //       type: "LISTENING"
     //   }]
     // });
-  
+
     console.log(`${client.user.username} est en ligne !`)
     // console.log(`${client.user.username} : En ligne sur ${client.guilds.cache.size} serveur(s) !`)
 
